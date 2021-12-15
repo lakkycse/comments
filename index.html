@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./css/all.css">
+  <title>Comments Project</title>
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-11 col-lg-6 my-3">
+        <div class="card card-body my-3 comment-card showItem">
+          <!-- end of close btn -->
+          <div class="feedback alert w-75 text-capitalize">
+          </div>
+          <form id="comment-form">
+            <!-- single input -->
+            <h5>Comments</h5>
+            <div class="form-group ">
+              <img src="./img/profile.png" class="profile-img">
+              <textarea class="w-100" id="comment-input" rows="3"></textarea>
+            </div>
+
+            <!-- end of single input -->
+            <button type="submit" class="btn submitBtn text-capitalize w-50">save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row px-2" id="comment-list">
+    </div>
+  </div>
+
+
+
+
+
+  <!-- jquery -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <!-- <script src="./js/app.js"></script> -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
